@@ -43,7 +43,7 @@ jobs:
           heroku_api_key: ${{secrets.HEROKU_API_KEY}}
           heroku_app_name: "fullstack-part-11"
           heroku_email: "ibrahimnasir618@gmail.com"
-          healthcheck: "https://fullstack-part-11.herokuapp.com//health"
+          healthcheck: "https://fullstack-part-11.herokuapp.com/health"
           checkstring: "ok"
           rollbackonhealthcheckfailed: true
           
